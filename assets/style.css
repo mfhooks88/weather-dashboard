@@ -1,0 +1,66 @@
+/*utilized old class material as well as MDN and W3 Schools for styling*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    padding: 10px;
+    background-color: #171051;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+input,
+button {
+    margin-bottom: 10px;
+}
+
+#current-weather,
+#five-day-forecast {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+#search-history {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+li:hover {
+    background-color: #e2e2e2;
+}
+
+#five-day-forecast div {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(202, 201, 201);
+  }
+  
+  #five-day-forecast div img {
+    margin-top: 5px;
+  }

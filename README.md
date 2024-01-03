@@ -15,3 +15,12 @@
 * THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 * WHEN I click on a city in the search history
 * THEN I am again presented with current and future conditions for that city
+
+# Notes
+* app should function where the user inputs a U.S. City by name and the app will show the current day weather along with the next 5 days below that.
+* the app will show the users most recently searched city underneath
+* the app will allow the user to click on the previously searched city and show the information again
+
+# References
+* references included help from previous class work, MDN and W3 Schools
+* help also provided from tutoring session as well and is noted in the file
