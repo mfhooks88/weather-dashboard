@@ -20,6 +20,7 @@
 * app should function where the user inputs a U.S. City by name and the app will show the current day weather along with the next 5 days below that.
 * the app will show the users most recently searched city underneath
 * the app will allow the user to click on the previously searched city and show the information again
+* API was used from OpenWeatherMap
 
 # References
 * references included help from previous class work, MDN and W3 Schools
