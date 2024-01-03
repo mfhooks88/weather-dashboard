@@ -24,3 +24,9 @@
 # References
 * references included help from previous class work, MDN and W3 Schools
 * help also provided from tutoring session as well and is noted in the file
+
+# Link and Screenshot
+
+https://mfhooks88.github.io/weather-dashboard/
+
+<img width="1512" alt="Screenshot 2024-01-02 at 10 43 33 PM" src="https://github.com/mfhooks88/weather-dashboard/assets/152635274/6f336a0a-48f1-49e5-b096-fe5078586b1c">
