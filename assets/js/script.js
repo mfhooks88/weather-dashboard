@@ -7,12 +7,15 @@ document.addEventListener("DOMContentLoaded", function () {
     // help provided during tutoring session
     function addToSearchHistory(cityName) {
         const searchHistory = JSON.parse(localStorage.getItem("searchHistory")) || [];
-
-        // Check if the city is not already in the search history
+        
+        console.log("Existing Search History:", searchHistory);
+    
         if (!searchHistory.includes(cityName)) {
             searchHistory.push(cityName);
             localStorage.setItem("searchHistory", JSON.stringify(searchHistory));
-
+    
+            console.log("Updated Search History:", searchHistory);
+    
             const listItem = document.createElement("li");
             listItem.textContent = cityName;
             listItem.addEventListener("click", function () {
@@ -25,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to update the search history UI
     function updateSearchHistoryUI(searchHistory) {
+        console.log("Updating Search History UI with:", searchHistory);
         searchHistoryElement.innerHTML = "";
         searchHistory.forEach(city => {
             addToSearchHistory(city);
